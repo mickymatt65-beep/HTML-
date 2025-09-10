@@ -1,30 +1,29 @@
-#<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Congratulations!</title>
   <style>
     body {
-      background-color: #fff8dc;
+      background-color: #f8f8f8;
       font-family: Arial, sans-serif;
       text-align: center;
       padding-top: 100px;
     }
-    h1 {
-      font-size: 48px;
-      color: #d40000;
+    .message {
+      font-size: 36px;
       font-weight: bold;
+      color: #2c3e50;
     }
-    p {
-      font-size: 32px;
-      color: #000000;
-      font-weight: bold;
+    .highlight {
+      color: #e74c3c;
     }
   </style>
 </head>
 <body>
-  <h1>🎉 CONGRATULATIONS, CATHERINE COMAN! 🎉</h1>
-  <p>You have WON $50,000 and a BRAND NEW TRUCK! 🚚💰</p>
+  <div class="message">
+     Congratulations <span class="highlight">Catherine Coman</span>!<br><br>
+    You have won a prize of <span class="highlight">$50,000</span> and a <span class="highlight">brand new truck</span>
+  </div>
 </body>
 </html>
- HTML-
